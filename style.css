@@ -1,0 +1,42 @@
+*{
+    box-sizing: content-box;
+}
+.svg-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.video {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+body{
+    margin-inline:20px;
+    font-family:Helvetica;
+    line-height: 1.6;
+    text-wrap:wrap;
+}
+
+.arguments{
+    display: flex;
+    flex-wrap: wrap;
+}
+svg{
+    transform: scale(100%);
+}
+.argument{
+    flex:1;
+    margin:10px;
+    border:1px solid #6666;
+    border-radius: 8px;
+    padding:5px 20px;
+
+}
+.axis-grid line{
+    stroke:#def;
+}

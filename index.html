@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DV hw4: Adhip Kashyap</title>
+
+        <!-- Add your CSS file link here -->
+        <link rel="stylesheet" href="./style.css" />
+        <!-- Add any additional metadata, links, or styles here -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+
+    <body>
+        <!-- Content goes here -->
+        <header>
+            <h1>
+                Data Visualization Homework 4
+            </h1>
+            <h1> The Problem with "The Problem
+                with Jon Stewart"
+            </h1>
+            <h2>
+                — Adhip Kashyap, akashy19@asu.edu
+            </h2>
+            <hr>
+        </header>
+
+        <nav>
+            <!-- Navigation links -->
+        </nav>
+
+        <main>
+            <!-- Main content -->
+            <div>
+                <h2>Background</h2>
+                <div class="video">
+                    <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/pP9dxjc9RDU?si=mTsQWl7_Y5JzfJbE&amp;start=37"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+                    
+                </div>
+                <p></p>
+                <p>
+                    
+                    <i>The Problem with Jon Stewart</i> Season 2 Episode 2 titled "Where is Our Tax
+                    Money Going?" focuses on the subject of taxes in America. During the introduction,
+                    they discuss a surprising statistic, the United States
+                    ranks #35 on Average Income Tax Burden. They claimed that
+                    Americans paid an average of 8% of household income in
+                    taxes, compared to Swedes (ranked #5) who pay an average of
+                    38%.
+                </p>
+                <p></p>
+            </div>
+            <div class="arguments">
+                <div class="argument">
+                    <h3>
+                        <i> "The point is it's low. Lower than you'd think." </i>– Yes, the US tax rate is low.
+                    </h3>
+                    <p>
+                        This data is sourced to the OECD, checking their database we
+                        see that this data comes from the "Average Tax Wedge"
+                        dataset for the year 2021, for "One-Earner Married Couple
+                        with Two Children".
+
+
+                    <div class="svg-container">
+                        <svg id="for-chart"></svg>
+                    </div>
+
+                        This data is conclusive, Countries like Sweden and Finland
+                        pay significantly higher taxes so they have better public services,
+                        leading to higher approval for these taxes. Conversely, US citizens paying a measly 8% can't expect high quality public healthcare, schools, etc. — You only get what you pay for.
+                    </p>
+                </div>
+                <div class="argument">
+                    <h3>
+                        <i>
+                            "Eight percent is the average tax burden in the United
+                            States of America? That can't be right." 
+                        </i>
+                        –  No, the US tax rate isn't <i>that </i>low.
+                    </h3>
+    
+                    <p>
+                        It should be noted that the data presented in the video
+                        only looks at the year 2021, which was an atypical year
+                        by any standard. With the COVID-19 pandemic and the
+                        resulting economic downturn, the US government took several
+                        steps to ease the financial burden, including issuing tax waivers and stimulus packages. These measures were funded by taxpayer dollars, effectively lowering the
+                        tax rate. Let's look at the data for 2022 instead.
+
+    
+                    <div class="svg-container">
+                        <svg id="against-chart"></svg>
+                    </div>
+                        The 2022 data tells a slightly different story. The average tax rate is now 20%. The US still ranks lower than countries like Sweden and Finland, but it's not far off from the countries like Canada (22%) or the UK (25%). Countries that have robust public services as the interviews in the video later show.
+                        The problem isn't that the US is getting the services it pays for, the problem is that it isn't.
+                        
+                    </p>
+                </div>    
+            </div>
+            
+        </main>
+
+        <footer>
+            <!-- Footer content, such as copyright and links -->
+            <p>2024 Adhip Kashyap</p>
+        </footer>
+    </body>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="akashy19.js"></script>
+</html>
